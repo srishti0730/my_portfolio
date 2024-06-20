@@ -1,0 +1,24 @@
+.gradient-background {
+    background: linear-gradient(300deg, #91DDCF, #F7F9F2, #E8C5E5 , #F19ED2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  #display-4 fw-bold text-body-emphasis{
+    color:whitesmoke;
+  }
+  body{
+    background-color:aliceblue;
+    color:rgb(84, 4, 158);
+    font-style: italic;
+  }
