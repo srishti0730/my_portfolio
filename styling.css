@@ -22,3 +22,9 @@
     color:rgb(84, 4, 158);
     font-style: italic;
   }
+  header {
+    position: sticky;
+  top: 0;
+  z-index: 999;
+  }
+  
